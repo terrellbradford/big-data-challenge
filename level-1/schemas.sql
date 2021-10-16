@@ -1,3 +1,8 @@
+DROP TABLE review_id_table;
+DROP TABLE products;
+DROP TABLE customers;
+DROP TABLE vine_table;
+
 CREATE TABLE review_id_table (
   review_id TEXT PRIMARY KEY NOT NULL,
   customer_id INTEGER,
